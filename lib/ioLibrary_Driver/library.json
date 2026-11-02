@@ -1,0 +1,17 @@
+{
+    "name": "WIZnet-ioLibrary-W5500",
+    "version": "1.0.0",
+    "build": {
+        "srcDir": "Ethernet",
+        "srcFilter": [
+            "-<*>",
+            "+<wizchip_conf.c>",
+            "+<socket.c>",
+            "+<W5500/w5500.c>"
+        ],
+        "flags": [
+            "-I Ethernet",
+            "-I Ethernet/W5500"
+        ]
+    }
+}
